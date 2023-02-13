@@ -1,0 +1,384 @@
+@font-face {
+   font-family: minhafonte;
+   src: url(font/BubaDEMO-Outline.otf);
+}
+
+body {
+   font-family: minhafonte;
+   margin: 2vw;
+   font-size: 2vw;
+   background-color: darkslateblue;
+   background-size: 10vw;
+   color: darkslateblue;
+}
+
+button img {
+   margin: 0;
+}
+
+img {
+   border-radius: 3vw;
+   margin: 1vw;
+   width: 90%;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+   letter-spacing: 0.1vw;
+   font-family: minhafonte;
+}
+
+h3 {
+   line-height: 3vw;
+   color: darkslateblue;
+}
+
+h1,
+p,
+h2 {
+   margin: 0;
+}
+
+h2 {
+   line-height: 4vw;
+   margin-left: 1vw;
+   font-size: 2vw;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+   background-color: darkslateblue;
+   border-radius: 2vw;
+   padding: 0.4vh;
+}
+
+input[type=checkbox] {
+   width: auto;
+   accent-color: blueviolet;
+}
+
+.pic {
+   margin-bottom: 2vw;
+}
+
+.send,
+.return,
+.buy {
+   text-decoration: none;
+   display: inline-block;
+   text-align: center;
+   width: 100%;
+   background-color: hotpink;
+   border-color: white;
+   border-radius: 4vw;
+   border: none;
+   height: 8vw;
+   color: white;
+   font-size: 5vw;
+   font-family: minhafonte;
+}
+
+.return {
+   margin: 0;
+   width: 9vw;
+   height: 9vw;
+}
+
+label,
+text {
+   font-family: minhafonte;
+   font-size: 2vw;
+   vertical-align: center;
+}
+
+.all {
+   background-color: white;
+   border-radius: 3vw;
+   padding: 2vw;
+   text-align: center;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.logo {
+   width: 50%;
+}
+
+.icons {
+   margin: 3vw;
+   width: 4vw;
+}
+
+.middle_header {
+   justify-content: left;
+   background-color: darkslateblue;
+   border-radius: 3vw;
+   height: fit-content;
+   margin-top: 2vw;
+   margin-bottom: 1vw;
+}
+
+.middle_header,
+.bottom,
+.outros,
+.send,
+.return,
+.link {
+   display: -webkit-flex;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.div_header {
+   margin: 0;
+   padding: 0;
+}
+
+.middle_header {
+   justify-content: left;
+}
+
+.link {
+   border-radius: 3vw;
+   height: 7vw;
+   display: flex;
+   justify-content: space-between;
+}
+
+.corpo {
+   margin-bottom: 1vw;
+   display: flex;
+   height: fit-content;
+}
+
+.corpo1 {
+   display: inline-block;
+   height: fit-content;
+   width: 60%;
+}
+
+.content {
+   border-style: solid;
+   border-radius: 3vw;
+   height: 160vw;
+   overflow: scroll;
+   margin-right: 1vw;
+}
+
+.right_menu {
+   display: block;
+   width: 40%;
+}
+
+.c {
+   border-style: solid;
+   border-radius: 3vw;
+   height: 160vw;
+}
+
+.right_menu1 {
+   height: 160vw;
+   position: absolute;
+   top: 0;
+   animation: scroll 5s linear 1s infinite;
+}
+
+@keyframes scroll {
+   100% {
+      top: -208vw;
+   }
+}
+
+.noticias {
+   
+   display: inline-block;
+   border-style: solid;
+   border-radius: 3vw;
+   height: fit-content;
+}
+
+span img {
+   width: 35vw;
+   height: 50vw;
+}
+
+.not {
+   background-color: white;
+   display: flex;
+   border: solid;
+   border-radius: 3vw;
+   margin: 1vw;
+   padding: 1vw;
+   font-size: 2vw;
+   display: -webkit-flex;
+   align-items: center;
+}
+
+.not div {
+   width: 40vw;
+   justify-content: center;
+   text-align: center;
+}
+
+.not img {
+   width: 50%;
+   margin-left: 1vw;
+}
+
+.bottom {
+   margin-top: 2vw;
+   height: 10vw;
+   border-style: solid;
+   border-radius: 1vw;
+}
+
+.login {
+   position: absolute;
+   background-color: white;
+   border-radius: 4vw;
+   padding: 2vw;
+   margin: 12vw;
+}
+
+.login text,
+h1 {
+   font-size: 3vw;
+}
+
+.registro {
+   background-color: darkslateblue;
+   border-radius: 5vw;
+   text-align: left;
+   color: white;
+   padding: 2vw;
+   margin-top: 1vw;
+   margin-bottom: 1vw;
+}
+
+.lembrar {
+   margin-bottom: 3vw;
+   display: -webkit-flex;
+   display: flex;
+   align-items: center;
+}
+
+.check {
+   margin-right: 3vw;
+   margin-left: 2vw;
+   width: 3vw;
+   height: 3vw;
+}
+
+.cred {
+   width: 98%;
+   height: 4vw;
+   background-color: white;
+   border-color: white;
+   border-radius: 3vw;
+   border: none;
+   margin-bottom: 3vw;
+}
+
+.adotar {
+   margin-top: 2vw;
+   margin-bottom: 2vw;
+   justify-content: center;
+   text-align: center;
+}
+
+.adote,
+.pagar {
+   margin: 0;
+   justify-content: center;
+   text-align: center;
+
+}
+
+.adote img {
+   height: 30vw;
+   width: 30vw;
+   margin: 1vw;
+}
+
+.pagar img {
+   border-radius: 3vw;
+   height: 15vw;
+   width: 15vw;
+   margin: 3vw;
+}
+
+.pagar text {
+   text-align: center;
+}
+
+.pagar div {
+   display: flex;
+}
+
+.adote img:hover,
+img:focus {
+   box-shadow: 1vw 1vw 0px blueviolet;
+}
+
+.pagar img:hover,
+img:focus {
+   box-shadow: 1vw 1vw 0px blueviolet;
+}
+
+legend {
+   display: flex;
+   flex-direction: row;
+}
+
+legend:before,
+legend:after {
+   content: "";
+   flex: 1 1;
+   border-bottom: 1px solid;
+   margin: auto;
+}
+
+legend:before {
+   margin-right: 10px
+}
+
+legend:after {
+   margin-left: 10px
+}
+
+.produtos {
+   display: flex;
+}
+
+.prod {
+   width: fit-content;
+   margin: 1vw;
+   border: solid;
+   border-radius: 5vw;
+   display: inline-block;
+}
+
+.prod img {
+   margin: 1vw;
+   width: 38vw;
+   height: 70vw;
+}
+
+.prod a {
+   margin: 1vw;
+   width: 41vw;
+}
+
+.prod,
+.produtos,
+.pagar,
+.login,
+.right_menu1,
+body {
+   justify-content: center;
+   text-align: center;
+}
