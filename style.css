@@ -15,6 +15,9 @@ body {
 button img {
    margin: 0;
 }
+.menu {
+   border-radius: 0;
+}
 
 img {
    border-radius: 3vw;
@@ -59,7 +62,7 @@ a {
 input[type=checkbox] {
    width: 3vw;
    height: 3vw;
-   accent-color: blueviolet;
+   accent-color: hotpink;
 }
 
 .pic {
