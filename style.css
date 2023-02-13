@@ -57,7 +57,8 @@ a {
 }
 
 input[type=checkbox] {
-   width: auto;
+   width: 3vw;
+   height: 3vw;
    accent-color: blueviolet;
 }
 
